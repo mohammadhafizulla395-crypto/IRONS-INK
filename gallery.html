@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | INK & IRON</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-logo"><h1 class="logo"><a href="index.html">INK <span>&</span> IRON</a></h1></div>
+        <nav class="menu" id="menu">
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="artist.html">Artists</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <div class="gallery-container container-main">
+        <h2 class="section-title">Our <span>Work</span></h2>
+        <div class="filter-bar" id="filterBar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+            <button class="filter-btn" data-filter="realism">Realism</button>
+            <button class="filter-btn" data-filter="japanese">Japanese</button>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="sub-footer">
+            <div><h2 class="title">INK <span style="color:goldenrod;">&</span> IRON</h2><p class="desc">Premium tattoo studio in Brooklyn.</p></div>
+            <div>
+                <p class="title">Quick Links</p>
+                <ul class="links">
+                    <li><a href="Home.html">Gallery</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="artist.html">Booking</a></li>
+                    <li><a href="contact.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div><p class="title">Contact</p><ul class="links"><li>Andhra Pradesh, India</li><li>+91 (718) 555-1234</li></ul></div>
+        </div>
+        <div class="rules">
+            <p>2024 Ink & Iron Studio</p>
+            <div class="terms" >
+                 <ul class="links" style="display: flex; justify-content: center;  gap: 10px; font-size: 13px;">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                 </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
